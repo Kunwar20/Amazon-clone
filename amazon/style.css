@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    font-size: arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon\ logo.jpg);
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left:5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+ justify-content: space-evenly;
+
+
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    font-size: 1.5rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+span{
+    font-size: 0.7rem;
+
+}
+
+.dropdown{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.cart i{
+    font-size: 30px;
+
+}
+
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color:#222f3d ;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+
+.deal-panel{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.Hero{
+    background-image: url(hero\ image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+
+.Hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.Hero-msg a{
+    color: #007185;
+    text-decoration: none;
+
+}
+
+.box{
+      height:400px;
+      width: 20%;
+      background-color: white;
+      padding: 20px 0px 15px;
+      margin-top: 15px;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+
+.box1{
+    
+
+    
+}
+
+.Box-image{
+
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(bike.jpg);   
+    background-size: cover; 
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+
+.phone-image{
+    height: 300px;
+    background-image: url(iphone.jpg);
+    background-size: cover;
+}
+
+.prime-image{
+    height: 300px;
+    background-image: url(tiger.jpg);
+    background-size: cover;
+}
+
+.skin-image{
+    height: 300px;
+    background-image: url(skin.jpg);
+    background-size: cover;
+}
+
+.perfume-image{
+    height: 300px;
+    background-image: url(perfume.jpg);
+    background-size: cover;
+}
+
+.ps-image{
+    height: 300px;
+    background-image: url(PlayStation-5-e1614159041758.webp);
+    background-size: cover;
+}
+
+.adidas-image{
+    height: 300px;
+    background-image: url(adidas.jpg);
+    background-size: cover;
+}
+
+.gym-image{
+    height: 300px;
+    background-image: url(gymm.jpg);
+    background-size: cover;
+}
+
+
+
+.foot-panel1{
+     background-color: #37475a;
+     color: white;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddd;
+    margin-top: 10px;
+}
